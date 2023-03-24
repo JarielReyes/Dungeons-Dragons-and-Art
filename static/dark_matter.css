@@ -6,11 +6,11 @@ body {
 
 .parent {
     display: flex;
-    height: 800px;
+    height: 40vw;
     justify-content: space-between;
     flex-direction: row;
     margin: 10px 10%;
-    overflow: hidden;
+    overflow:visible;
 }
 
 .child {
@@ -22,9 +22,19 @@ body {
 
 
 .img {
-    max-width: 100%;
+    max-width: 80%;
     overflow: hidden;
     /* height: auto; */
+}
+
+.title-img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
