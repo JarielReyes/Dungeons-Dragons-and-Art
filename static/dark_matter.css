@@ -6,10 +6,11 @@ body {
 
 .parent {
     display: flex;
-    height: 600px;
+    height: 800px;
     justify-content: space-between;
     flex-direction: row;
     margin: 10px 10%;
+    overflow: hidden;
 }
 
 .child {
