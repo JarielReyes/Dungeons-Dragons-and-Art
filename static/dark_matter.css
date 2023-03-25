@@ -19,12 +19,9 @@ body {
     margin: auto;
 }
 
-
-
 .img {
     max-width: 80%;
     overflow: hidden;
-    /* height: auto; */
 }
 
 .title-img {
