@@ -1,4 +1,72 @@
+*{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+a {
+    /* pointer-events: none; */
+    text-decoration: none;
+    color: inherit;
+}
+
 .links {
     display: flex;
     flex-direction: column;
+}
+
+.main-col {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-row {
+    border: 1px solid green;
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+}
+
+.image {
+    max-width: 40%;
+    justify-self: flex-start;
+}
+
+.text-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10%;
+    font-size: 60;
+    opacity: 1;
+}
+
+.text-item {
+    text-align: center;
+}
+
+.background {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#dark-matter {
+    background-image: url(imgs/DarkMatter/theCrew.jpg);
+    color: white;
+}
+
+
+#ryu-no-kuni {
+    background-image: url(imgs/Feudal/map.jpg);
+    color: rgb(121, 6, 6);
+}
+
+#kastarax {
+    background-image: url(imgs/kastarax/school.jpg);
 }
