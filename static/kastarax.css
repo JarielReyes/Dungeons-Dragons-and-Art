@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    max-width: 80%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-column {
+    width: 20%;
+    justify-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: xx-large;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    /* width: 120px; */
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
