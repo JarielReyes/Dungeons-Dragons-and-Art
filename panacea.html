@@ -4,7 +4,9 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="static/header.css">
         <link rel="stylesheet" href="static/panacea.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&display=swap" rel="stylesheet">
 		<title>D&D</title>
 	</head>
 
@@ -62,12 +64,49 @@
             </div>
         </div>
 
+        <div class="section-descriptor">
+            <h2>Evidence</h2>
+            <p>Click on an image to enlarge it.</p>
+        </div>
+
+        <div class="image-slider-container">
+            <div class="image-slider">
+                <img class="image" src="static/imgs/panacea/adrian-oc.jpg" alt="Image 1">
+                <img class="image" src="static/imgs/panacea/jax-oc.jpg" alt="Image 2">
+                <img class="image" src="static/imgs/panacea/luke-oc.jpg" alt="Image 3">
+                <img class="image" src="static/imgs/panacea/viv-oc.jpg" alt="Image 4">
+            </div>
+        </div>
+        
+        <div class="slider-controls">
+            <div class="slider-control active"></div>
+            <div class="slider-control"></div>
+            <div class="slider-control"></div>
+            <div class="slider-control"></div>
+            <!-- Add more slider controls based on the number of images -->
+        </div>
+
+        <div class="enlarged-image">
+            <img id="enlarged-img" src="" alt="Enlarged Image">
+        </div>
+
+        <div class="section-descriptor">
+            <h2>Evidence</h2>
+            <p>The following is the information the group has on ZyMedBio</p>
+        </div>
+
+        <div class="image-container" style="margin-bottom: 30px;">
+                <img class="image-solo" src="static/imgs/panacea/zymed.jpg" alt="Image 1">
+                <img class="image-solo" src="static/imgs/panacea/milked.jpg" alt="Image 2">
+        </div>
+        
+
     </body>
 
 
 
 
 	
-	<script src="static/script.js"></script>
+	<script src="static/panacea.js"></script>
 
 </html>
